@@ -5,3 +5,6 @@ background-image: url();
 background-color: aquamarine;
 height: 300px;
 }
+#trait1{
+    border: solid 1px blue;
+}
