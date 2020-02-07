@@ -1,9 +1,9 @@
 
 
 header{
-background-image: url();
-background-color: aquamarine;
-height: 300px;
+background-image: url(/assets/winter-mountain-landscape-with-fir-trees-on-the-PUUL5AX.JPG);
+
+height: 600px;
 }
 #trait1{
     border: solid 1px blue;
@@ -13,4 +13,9 @@ height: 300px;
     height: 100px;
     margin-top: 200px;
 }
+#mentions{
+   margin-top: 200px; 
+   font-size: 100px;
+}
+
     
