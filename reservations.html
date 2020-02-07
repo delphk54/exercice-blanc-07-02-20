@@ -71,35 +71,73 @@
             <div class="col sm-3"></div>
         </div>
 
-        <div class="row">
+       <div class="row">
+           <div class="col sm-2">
+            <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                <div class="row">
+                    <label class="required" for="name">VOTRE NOM</label><br />
+                    <input id="name" class="input" name="name" type="text" value="" size="40" /><br />
+                    <span id="name_validation" class="error_message"></span>
+                </div>
+                <div class="row">
+                    <label class="required" for="email">VOTRE MAIL</label><br />
+                    <input id="email" class="input" name="email" type="text" value="" size="40" /><br />
+                    <span id="email_validation" class="error_message"></span>
+                </div>
+                <div class="row">
+                    <label class="required" for="message">VOTRE MESSAGE</label><br />
+                    <textarea id="message" class="input" name="message" rows="7" cols="40"></textarea><br />
+                    <span id="message_validation" class="error_message"></span>
+                </div>
 
-            <div class="col sm-2"></div>
-            <div class="col sm">
-               
-                <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-                    <div class="row">
-                        <label class="required" for="name">VOTRE NOM</label><br />
-                        <input id="name" class="input" name="name" type="text" value="" size="100" /><br />
-                        <span id="name_validation" class="error_message"></span>
-                    </div>
-                    <div class="row">
-                        <label class="required" for="email">VOTRE MAIL</label><br />
-                        <input id="email" class="input" name="email" type="text" value="" size="100" /><br />
-                        <span id="email_validation" class="error_message"></span>
-                    </div>
-                    <div class="row">
-                        <label class="required" for="message">VOTRE MESSAGE</label><br />
-                        <textarea id="message" class="input" name="message" rows="7" cols="100"></textarea><br />
-                        <span id="message_validation" class="error_message"></span>
-                    </div>
+                <input id="submit_button" type="submit" value="ENVOYE" />
+            </form>
+           </div>
+           <div class="col sm-4">
+            <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                <div class="row">
+                    <label class="required" for="name">VOTRE NOM</label><br />
+                    <input id="name" class="input" name="name" type="text" value="" size="40" /><br />
+                    <span id="name_validation" class="error_message"></span>
+                </div>
+                <div class="row">
+                    <label class="required" for="email">VOTRE MAIL</label><br />
+                    <input id="email" class="input" name="email" type="text" value="" size="40" /><br />
+                    <span id="email_validation" class="error_message"></span>
+                </div>
+                <div class="row">
+                    <label class="required" for="message">VOTRE MESSAGE</label><br />
+                    <textarea id="message" class="input" name="message" rows="7" cols="40"></textarea><br />
+                    <span id="message_validation" class="error_message"></span>
+                </div>
 
-                    <input id="submit_button" type="submit" value="ENVOYE" />
-                </form>
-            </div>
-            <div class="col sm-2"></div>
-        </div>
-        </main>
+                <input id="submit_button" type="submit" value="ENVOYE" />
+            </form>
+           </div>
+           <div class="col sm-4">
+            <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                <div class="row">
+                    <label class="required" for="name">VOTRE NOM</label><br />
+                    <input id="name" class="input" name="name" type="text" value="" size="40" /><br />
+                    <span id="name_validation" class="error_message"></span>
+                </div>
+                <div class="row">
+                    <label class="required" for="email">VOTRE MAIL</label><br />
+                    <input id="email" class="input" name="email" type="text" value="" size="40" /><br />
+                    <span id="email_validation" class="error_message"></span>
+                </div>
+                <div class="row">
+                    <label class="required" for="message">VOTRE MESSAGE</label><br />
+                    <textarea id="message" class="input" name="message" rows="7" cols="40"></textarea><br />
+                    <span id="message_validation" class="error_message"></span>
+                </div>
 
+                <input id="submit_button" type="submit" value="ENVOYE" />
+            </form>
+           </div>
+       </div>
+
+          
 
         <footer>
             <div class="row bg-dark footer">
